@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8"/>
+		<!--<script type="text/javascript" src="include.js"></script>-->
+		<script type="text/javascript" src="C:\Users\jumat\repos2\TurtleEngine\TurtleEngine\data-engine\javascript\include\include.js"></script>
+		<script type="text/javascript">
+			//window.includer.set_collapsed(true);//collapses the console group
+			if (true) {
+				window.include("file1.js");
+			}
+			//can also set $(fs_root) token
+			else {
+				window.includer.set_fs_root(/*should be set to an absolute path to your project files root*/".");
+				window.includer.set_collapsed(false);
+				window.includer.set_relative_paths_matching(true);
+				window.include("$(fs_root)/file1.js");//and use the "$(fs_root)" token with every "include()"
+			}
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.includer.ready(function(){
+				console.log("hello world");
+			});
+		</script>
+	</body>
+</html>
