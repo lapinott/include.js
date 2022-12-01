@@ -8,7 +8,7 @@
 
 The current include context for a file is determined by using `document.currentScript` and adding an index parameter to the script url. This data is used to build a dependency tree. User code *must* be wrapped in `include.ready(...)` after the include directive(s). It is the only way to delay user code execution until dependecies are loaded. Ready callbacks are then executed along the dependency tree.
 
-Have a look at `example/example.html` to see include.js in action.
+Have a look at `example/example.html` to see include.js in action (or inspect the <a href="example/output.png" title="output">output</a> directly).
 
 ***
 
