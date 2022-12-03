@@ -18,7 +18,7 @@
 			else {
 				window.includer.set_root(/*should be set to an absolute or relative path to your project files root*/".");
 				window.includer.set_file_urls_relative_path_matching(true || false);
-				window.include("$(root)/file1.js");//use the "$(root)" token in every "include(...) directive"
+				window.include("$(root)/file1.js");//use the "$(root)" token in every "include(...) directive (also in recursively included files)"
 			}
 		</script>
 	</head>
