@@ -1,6 +1,7 @@
 # include.js
 
 ### NOTE: This project is *not* open sourced and is uploaded here for showcase value. If you would like to use it, send me an email <a href="mailto:julien@turtlespeak.net?subject=include.js">here</a> and I will send you a licensed copy. This code is protected by a md5 fingerprint. Reverse lookup will tell me who you claim you are, and if you are not who you claim you are, that's an issue. :-)
+### You are allowed to download this code and run the samples - for further usage, <a href="mailto:julien@turtlespeak.net?subject=include.js">send me an email</a>.
 
 ***
 
