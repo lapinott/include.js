@@ -30,6 +30,9 @@ Relative path lookup is enabled by default for the `file://` url scheme (and onl
 ### not a feature
 - additional include paths.
 
+### know issue(s)
+- At this time `window.includer.once()` will eventually throw a `new includer.internal.exceptions.include_guard(...)` object that is not caught anywhere (despite trying). Ideally, we would like to catch this error and print a warning instead. It seems this is not possible (see issue <a href="https://stackoverflow.com/questions/74647504/catching-an-error-or-exception-thrown-from-a-dynamically-appended-script-element" title="">here</a> on stackoverflow). The behaviour of the includer is not compromised and behaves as it should.
+
 ### objects
 - `window.includer`: the main include.js object.
 - `window.includer.internal.`
